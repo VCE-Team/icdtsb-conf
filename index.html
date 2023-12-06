@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="zxx">
+<style>
+    body{
+        /* background-image: url("/assets/images/about-team-img1.png"); */
+        /* background: rgb(255,255,255); */
+        background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgba(235, 149, 0, 0.28777221337753855) 0%, rgba(255, 255, 255, 1) 100%);
+
+
+    }
+</style>
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ICDTSB | VMEG</title>
-    <!-- <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png"> -->
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
@@ -68,35 +65,35 @@
     <header class="header5">
         <nav class="navbar5">
             <div class="joel-content-button">
-                <class class="button-icdtsb-joel"><h7>ICDTSB</h7></class>
+                <div class="button-icdtsb-joel"><h7>ICDTSB</h7></div>
             </div>
             <ul class="nav-menu5">
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Home</a1>
+                    <a href="#" class="nav-link5">Home</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Department Profile</a1>
+                    <a href="https://vardhaman.org/masters-of-business-administration/master-of-business-administration/" class="nav-link5">Department Profile</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Brochure</a1>
+                    <a href="/assets/documents/temporaryBrochure.pdf" class="nav-link5">Brochure</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Call for Papers</a1>
+                    <a href="#" class="nav-link5">Call for Papers</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Committees</a1>
+                    <a href="#" class="nav-link5">Committees</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">CRC Word Template</a1>
+                    <a href="/assets/documents/CRCWordTemplate.docx" class="nav-link5">CRC Word Template</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Author Guidelines</a1>
+                    <a href="/assets/documents/AuthorGuidelines.pdf" class="nav-link5">Author Guidelines</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Registration</a1>
+                    <a href="#" class="nav-link5">Registration</a>
                 </li>
                 <li class="nav-item5">
-                    <a1 href="#" class="nav-link5">Contact Us</a1>
+                    <a href="#" class="nav-link5">Contact Us</a>
                 </li>
             </ul>
             <div class="hamburger5">
@@ -107,24 +104,26 @@
         </nav>
     </header>
     <script>
-    const hamburger = document.querySelector(".hamburger5");
+        const hamburger = document.querySelector(".hamburger5");
         const navMenu = document.querySelector(".nav-menu5");
-        
+    
         hamburger.addEventListener("click", mobileMenu);
-        
+    
         function mobileMenu() {
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
         }
-        const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-        </script>
+    
+        const navLink = document.querySelectorAll(".nav-link5");
+    
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+    
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    </script>
+    
 
     
     <div class="joel-ribbon" id="joel-stickyRibbon">
@@ -180,6 +179,9 @@ function closeMenu() {
         </header>
         <!-- BANNER-SECTION -->
         <!-- Joel makes banner -->
+        <div class="image-container">
+            <img src="https://via.placeholder.com/800x400" alt="Your Image">
+        </div>
         <section class="cyber-security-section cyber-security-section2 overflow-hidden">
             <div class="container">
                 <div class="row">
@@ -213,12 +215,12 @@ function closeMenu() {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 text-md-right text-center">
+                    <!-- <div class="col-lg-5 col-md-5 col-sm-12 text-md-right text-center">
                         <div class="cyber-content-img-right" data-aos="fade-up-right">
                             <figure ><img src="./assets/images/cyber-security-right-img.png" alt="" class="img-joel-class">
                             </figure>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -229,7 +231,7 @@ function closeMenu() {
     <pctd id="demo"></pctd>
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Jan 24, 2024 15:37:25").getTime();
+        var countDownDate = new Date("Feb 23, 2024 15:37:25").getTime();
         // Update the count down every 1 second
         var x = setInterval(function() {
           // Get today's date and time
