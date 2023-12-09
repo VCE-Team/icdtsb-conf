@@ -963,7 +963,7 @@ b{
 }
 
 .joel-header:hover {
-    color: var(--e-global-color-red-active) /* Change to your desired hover color */
+    color: #ff0000 /* Change to your desired hover color */
 }
 
 .joel-para{
