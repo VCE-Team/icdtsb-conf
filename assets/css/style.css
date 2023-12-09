@@ -439,7 +439,7 @@ main {
     flex: 1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom: 1px solid var(--e-global-color-dark-icons-background);
+    /* border-bottom: 1px solid var(--e-global-color-dark-icons-background); */
     transition: top 0.3s ease-in-out;
     z-index: 1000;
     flex-wrap: wrap;
