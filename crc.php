@@ -1,5 +1,5 @@
 <?php
-$file = './assets/documents/CRCWordTemplate.docx';
+$file = './assets/documents/CONFERENCE BROCHURE final.pdf';
 
 // Check if the file exists
 if (file_exists($file)) {
