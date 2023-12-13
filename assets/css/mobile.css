@@ -750,6 +750,12 @@
         font-size: 16px;
         line-height: 24px;
     }
+    pfooter {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px;
+    }
+
     h1 {
         font-size: 50px;
         line-height: 58px;

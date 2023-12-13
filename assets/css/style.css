@@ -186,7 +186,13 @@ a5{
   
     .nav-menu5.active {
       left: 0;
+      padding-top: 1rem;
     }
+
+    .nav-link5.active:hover {
+        color: #482ff7;
+        text-decoration: none;
+      }
   
     .nav-item5 {
       margin: 0.4rem 0;
@@ -1920,6 +1926,25 @@ b{
     }
 }
 
+.joel-added-text-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    /* background: var(--e-global-color-dark-icons-background); */
+     /* Justify the text */
+  }
+  
+  @media (max-width: 768px) {
+    .joel-added-text-container-footer {
+      max-width: 100%; /* Adjust the maximum width for smaller screens */
+    }
+  }
+  
+
 .cyber-security-section .cyber-content .security-services-p {
     font-size: 18px;
     line-height: 30px;
@@ -3016,6 +3041,29 @@ select:focus {
     margin-bottom: 153px !important;
 }
 
+/* .joel-footer-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: auto;
+  }
+
+  .joel-footer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .joel-footer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; 
+    width: 100%; 
+    box-sizing: border-box; 
+  } */
 .banner-container-box-comming-soon .input-form-input {
     padding: 34px 20px 34px 28px;
     border-radius: 10px 10px 10px 10px;
