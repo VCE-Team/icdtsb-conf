@@ -27,7 +27,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sifing: border-box;
     /* background: var(--e-global-color-dark-icons-background); */
     /* background-color: #fff; */
     /* background-image: url("html.designingmedia.com\redlight\assets\images\download.jpeg"); */
@@ -3132,4 +3132,7 @@ select:focus {
 
 ul{
     margin: 5px;
+}
+#cont{
+    margin-left: 80px;
 }
