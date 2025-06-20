@@ -3136,3 +3136,12 @@ ul{
 #cont{
     margin-left: 80px;
 }
+
+.vels-logo-img {
+    width: 130px !important;
+    height: 130px !important;
+    max-width: 130px !important;
+    max-height: 130px !important;
+    display: block;
+    margin: 0 auto;
+}
