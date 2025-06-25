@@ -3135,7 +3135,7 @@ ul{
 }
 #cont{
     margin-left: 80px;
-<<<<<<< HEAD
+
 }
 
 .vels-logo-img {
@@ -3145,6 +3145,13 @@ ul{
     max-height: 130px !important;
     display: block;
     margin: 0 auto;
-=======
->>>>>>> 6b50e56633e9b0fb87927a81745d483747453d91
+
+}
+.vard-logo-img{
+    width: 150px !important;
+    height: 145px !important;
+    max-width: 150px !important;
+    max-height: 145px !important;
+    display: block;
+    margin: 0 auto;
 }
